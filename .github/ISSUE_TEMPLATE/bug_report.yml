@@ -47,12 +47,12 @@ body:
   attributes:
     label: Steps to reproduce the problem
     description: The most important section. Review everything you did leading up to causing the issue.
-- type:
+- type: textarea
   id: When
   attributes:
     label: When did the problem start happening
     description: If your report is about something that used to work but no longer does, when was the last time you remember it working?
-- type:
+- type: textarea
   id: Extra Info
   attributes:
     label: Extra information
