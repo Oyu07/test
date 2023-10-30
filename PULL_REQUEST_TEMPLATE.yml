@@ -1,0 +1,52 @@
+#For more details
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+#Be sure to check the docs
+#
+#Format
+#- type: | markdown | textarea | input | checkboxes |
+#  id:   | just an id, no actual relevance |
+#  attributes:
+#    label:       | Box title |
+#    description: | Box small text - Description |
+#
+name: Feature Request
+#title: "[Bug]: " | if you want to have a have it automatically say [Bug] when they start the form
+description: Suggest an idea for this project. If this doesn't look right
+#labels: [Bug] | Auto labels the post, as we do not use this, commenting out, purely as reference
+
+body:
+- type: markdown
+  id: Allow-Edits
+  attributes:
+    value: By ticking or leaving ticked the option "Allow edits and access to secrets by maintainers" you give permission for repository maintainers to push changes to your branch without explicitly asking.
+- type: textarea
+  id: What
+  attributes:
+    label: What Does This PR Do
+    description:
+    - Include a small to medium description of what your PR changes.
+    - Document all changes, as not doing this may delay reviews or even discourage maintainers from merging your PR!
+    - If your PR fixes an issue, add "Fixes #1234" somewhere in the PR description. This will automatically close the bug upon PR submission.
+    validation:
+      required: true
+- type: textarea
+  id: Why
+  attributes:
+    label: Why It's Good For The Game
+    description: Add a short description of why you think these changes would benefit the game. If you can't justify it in words, it might not be worth adding.
+    validation:
+      required: true
+- type: textarea
+  id: Images
+  attributes:
+    label: Images of changes
+    description: If you did not make a map or sprite edit, you may delete this section. You may include a gif or mp4 of your feature if you want.
+- type: textarea
+  id: Changelog
+  attributes:
+    label: Changelog
+    description:
+    - "Both :cl:'s are required for the changelog to work! You can put your name to the right of the first :cl: if you want to overwrite your GitHub username as author ingame."
+    value: ":cl: add: Added new things del: Removed old things tweak: Tweaked a few things fix: Fixed a few things wip: Added a few works in progress soundadd: Added a new sound thingy sounddel: Removed an old sound thingy imageadd: Added some icons and images imagedel: Deleted some icons and images spellcheck: Fixed a few typos experiment: Added an experimental thingy /:cl:"
+    validation:
+      required: true
