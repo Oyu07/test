@@ -19,9 +19,8 @@ body:
   id: Feature-Forum
   attributes:
     value: "**Feature Requests are on forums** <br> Please place all features requests here: https://www.paradisestation.org/forum/60-suggestions/"
-- type: textarea
-  id: Go-Forum-PLEASE
+- type: dropdown
+  id: dropdown
   attributes:
-    label: Visit forum
-    description: https://www.paradisestation.org/forum/60-suggestions/
-    placeholder: Please place all features requests here | https://www.paradisestation.org/forum/60-suggestions/
+    options:
+    - Forum
