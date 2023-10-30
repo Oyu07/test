@@ -22,5 +22,6 @@ body:
 - type: dropdown
   id: dropdown
   attributes:
+    label: Dropdown
     options:
     - Forum
