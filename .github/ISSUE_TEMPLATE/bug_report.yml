@@ -53,7 +53,12 @@ body:
     label: When did the problem start happening
     description: If your report is about something that used to work but no longer does, when was the last time you remember it working?
 - type: textarea
-  id: Extra Info
+  id: Extra-Info
   attributes:
     label: Extra information
     description: If your report is about something that used to work but no longer does, when was the last time you remember it working?
+- type: input
+  id: Discord
+  attributes:
+    label: Discord
+    description: Optional
