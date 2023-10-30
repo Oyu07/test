@@ -18,7 +18,7 @@ body:
 - type: markdown
   id: Feature-Forum
   attributes:
-    value: "**Feature Requests are on forums <br> Please place all features requests here: https://www.paradisestation.org/forum/60-suggestions/"
+    value: "**Feature Requests are on forums** <br> Please place all features requests here: https://www.paradisestation.org/forum/60-suggestions/"
 - type: textarea
   id: Go-Forum-PLEASE
   attributes:
