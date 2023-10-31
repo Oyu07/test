@@ -54,16 +54,6 @@ body:
   attributes:
     label: Extra information
     description: If your report is about something that used to work but no longer does, when was the last time you remember it working?
-- type: dropdown
-  id: Map
-  attributes:
-    label: Map Report
-    description: If this is a map issue, please select which map
-    options:
-    - Box - CyberiadS
-    - Meta - Cerebron
-    - Delta - Kerberos
-    - Cere - Farragus
 - type: input
   id: Round-ID
   attributes:
